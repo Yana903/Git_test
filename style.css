@@ -27,10 +27,19 @@
     padding-bottom: 20px;
 }
 
+img {
+    width: 100%;
+}
+
 .description {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.section-picture .container {
+    flex-direction: column;
+    justify-content: center;
 }
 
 .footer {
